@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <h2>Definicion de tablas sencilla</h2>
+    <p>para crear una tabla sencilla ha utilizar en primer lugar la etiqueta < table >,la cual define la tabla.Y dentro de ella se ha de situar por cada fila una etiquta < tr >,mientras que por cada casilla o celda dentro de la fila,se puede utilizar una etiqueta < th > o < td >,dependiendo de que sea una celda de cbecera o normal.</p>
+        <br>
+        <h2>Definicion de una tabla con combinacion de columnas</h2>
+        <p>uno de los atributos que se pueden aplicar alas etiquetas de celda,independientemente que sean de encabezado o normales. Es el atributo colspan,el cual permite realizar la combinacion de varias columnas en una sola.</p>
+
+
+        <p>Para especificar el valor del atributo,se ha de indicar el numero de columnas sobre las que se quiere realizarla combinacion,utilizando un valor numerico encerrado entre comillas dobles</p>
+
+        <br>
+
+        <h2>Definicion de una tabla con combinacion de filas </h2>
+        <p>Al igual que se puede realizar la combinacion de columnas,tambien se puede realizar la combinacion de filas,mediante el atributo rowspan</p>
+
+        <p>Para especificar el valor del atributo,se ha de indicar el numero de filas sobre las que se quiere realizar la combinacion,utilizando un valor numerico encerrado entre comillas dobles</p>
+        <br><br>
+
+        <h3><u>Ejemplo:</u></h3>
+        <table border="2">
+            <tr>
+                <td rowspan="3">PERSONAL TECNICO EN ENFERMERIA</td>
+                <td colspan="3"> aling="center"POBLACION</td>
+            </tr>
+            <tr>
+                <td colspan="2">GENERO</td>
+                <td rowspan="2">TOTAL</td>
+            </tr>
+            <tr>
+                <td>HOMBRES</td>
+                <td>MUJERES</td>
+            </tr>
+            <tr>
+                <td>Consultorios externos</td>
+                <td>02</td>
+                <td>18</td>  
+                <td>20</td>           
+            </tr>
+            <tr>
+                <td>Hospitalizacion</td>
+                <td>06</td>
+                <td>14</td>  
+                <td>20</td>           
+            </tr>  
+            <tr>
+                <td>Laboratorios y otros</td>
+                <td>02</td>
+                <td>18</td>  
+                <td>20</td>           
+            </tr>  
+            <tr>
+                <td>TOTAL</td>
+                <td>10</td>
+                <td>50</td>  
+                <td>60</td>           
+            </tr>  
+        </table>
+
+
+</body>
+</html>
